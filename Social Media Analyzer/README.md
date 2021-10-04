@@ -1,4 +1,4 @@
-# About Module of Social Media Analyzer ReadMe! :owlbert:
+# About Module of Social Media Analyzer ReadMe!
 
 This is Introduction of our Social Media Analyzing program, which is mainly going to use the Twitter API and the Google NLP Engine to build a functionality analyzing tool to analyze the twitter's feeds. Bascially, it is start from the sentiment of text twitter feed of the publication and tweets from users.
 
