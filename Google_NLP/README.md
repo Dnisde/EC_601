@@ -10,7 +10,7 @@ This is Introduction of how to using Google NLP by my perspective, which is a ma
 3. Define and create the user Stories of our module / application for NLP, and showing how are we going to use them to build something differently and innovation.
 
 
-# 📝 About the Google NLP itself[Reference](https://cloud.google.com/natural-language)
+# 📝[About the Google NLP itself](https://cloud.google.com/natural-language)
 
 * AutoML Natural Language uses machine learning to analyze the structure and meaning of documents. You train a custom machine learning model to classify documents, extract information, or understand the sentiment of authors.
     * A classification model analyzes a document and returns a list of content categories that apply to the text found in the document.
@@ -21,7 +21,7 @@ The Google Natural Language client Libraries access example of guideline shown a
 
 # 🚦 Interactive API Docs
 
-### Google NLP QuickStart [Reference](https://cloud.google.com/natural-language/automl/docs/quickstart)
+### [Google NLP QuickStart](https://cloud.google.com/natural-language/automl/docs/quickstart)
 
 * **API Keys Retrieve Example:**
 
@@ -53,7 +53,7 @@ The above example code is just use Google Auto ML machine learning model to anal
 
 * First, we utilize some example data
 
-![Google NLP Engine test by single label classification](https://github.com/Dnisde/EC_602/blob/main/NLP_happiness_Profile.png?raw=true)
+![Google NLP Engine test by single label classification](/main/Google_NLP/NLP_happiness_Profile.png?raw=true "Optional Title")
 
 ![Google NLP Engine test result: Single label classification model: Happiness moment](https://github.com/Dnisde/EC_602/blob/main/NLP_happiness_overview.png?raw=true)
 
