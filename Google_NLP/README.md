@@ -53,12 +53,12 @@ The above example code is just use Google Auto ML machine learning model to anal
 
 * First, we utilize some example data
 
-![Google NLP Engine test by single label classification](/main/Google_NLP/NLP_happiness_Profile.png?raw=true "Optional Title")
+![Google NLP Engine test by single label classification](https://raw.github.com/Dnisde/EC_602/main/NLP_happiness_Profile.png)
 
-![Google NLP Engine test result: Single label classification model: Happiness moment](https://github.com/Dnisde/EC_602/blob/main/NLP_happiness_overview.png?raw=true)
+![Google NLP Engine test result: Single label classification model: Happiness moment](https://raw.github.com/Dnisde/EC_602/main/NLP_happiness_overview.png)
 
 * Then, we tried to use the installed sentiment analysis NLP model at local to build a single word test demo.
 The following graph which showing the text result BASED ON ABOVE CODE.
 
-![Sentiment Analysis Test by using word: " Dear my love"](https://github.com/Dnisde/EC_602/blob/main/NLP_trial.png?raw=true)
+![Sentiment Analysis Test by using word: " Dear my love"](https://raw.github.com/Dnisde/EC_602/main/NLP_trial.png)
 
