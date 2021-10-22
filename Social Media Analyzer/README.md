@@ -1,6 +1,6 @@
 # About Module of Social Media Analyzer ReadMe!
 
-This is Introduction of our Social Media Analyzing program, which is mainly going to use the Twitter API and the Google NLP Engine to build a functionality analyzing tool to analyze the twitter's feeds. Bascially, it is start from the sentiment of text twitter feed of the publication and tweets from users.
+This is Introduction of our Social Media Analyzing program, which is mainly going to use the Twitter API and the Google NLP Engine to build a functionality analyzing tool to analyze the twitter's feeds. Basically, it is a briefly overview of the sentiment analysis tool by retrieve information from tweets that people post everyday. Or the feed of the publication and tweets from users, Then implementing the analysis and build different user cases for specific users.
 
 ## MileStone:
 
@@ -100,17 +100,25 @@ print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
 
 > 👍 User Story 3
 >
-> As a Data Scientist, I want to use the analyzer to build a specific dataset to help me look up the most-clicking rate tweets, and figure out the sercret behind those information.
+> As a Data Scientist, I want to use the analyzer to build a specific dataset to help me look up the most-clicking rate tweets, and figure out the secrets behind those information.
 
 > 📘 User Story 4
 >
-> As a commertial tenant, I want to retreive the specific keywords,  and using the sentiment tool to help me analyze the point of view that if they like the merchandise or it needs room for improvement.
+> As a commercial tenant, I want to retrieve the specific keywords,  and using the sentiment tool to help me analyze the point of view that if they like the merchandise or it needs room for improvement.
 
 > 👍 User Story 5
 >
-> As a advertiser, I want to use the analyzer to utilize the sentiment of people's preference of those advertisement, and push those who they think more comfort to watch.
+> As an advertiser, I want to use the analyzer to utilize the sentiment of people's preference of those advertisement, and push those who they think more comfort to watch.
 
 
-# 💬 Modular Design based on Story 
+# 💬 Modular Design based on Story
 
-### 
+### Main User Story:
+
+> 👍 User Story 1
+>
+> As a journalist, I want to use the Social Media Analyzer to realize what kinds of twitter do people like to post during their daily life, and build the flash-news by those topics who owning high sentiments.
+
+> 📘 User Story 4
+>
+> As a commercial tenant, I want to retrieve the specific keywords,  and using the sentiment tool to help me analyze the point of view that if they like the merchandise or it needs room for improvement.
