@@ -88,8 +88,9 @@ print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
 ```
 
 
-# 📈 User Story in Demo:
+# 📈 User Story:
 
+### Demo User Story:
 > User Story 1
 > As a journalist, I want to use the Social Media Analyzer to realize what kinds of twitter do people like to post during their daily life, and build the flash-news by those topics who owning high sentiments.
 
@@ -106,7 +107,7 @@ print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
 > As an advertiser, I want to use the analyzer to utilize the sentiment of people's preference of those advertisement, and push those who they think more comfort to watch.
 
 
-## Modular Design based on Selected Main Story
+# 💬 Modular Design based on Selected Main Story
 
 ### Main User Story:
 
@@ -118,7 +119,7 @@ print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
 >
 > As a commercial tenant, I want to retrieve the specific keywords,  and using the sentiment tool to help me analyze the point of view that if they like the merchandise or it needs room for improvement.
 
-# 💬 Modular Design
+### Modular Design:
 
 **Code explaination: (in Python)**
 
@@ -279,6 +280,8 @@ if __name__ == "__main__":
 * From the graph, `a commercial tenant (Disney Animation Pictures at here for example)` trying to use the keyword to access the ratings of his product,
 At there, we search the tweets accessed by the keyword "Disney Movies Ratings", and we selected 10 instances by also adding with an extra filter with "retweets".
 
+* ![Social_Media_0](https://user-images.githubusercontent.com/27568828/139638466-282f18c4-7cc6-49e9-b8b6-bbbbc86b5926.PNG)
+
 * Example: As you could observed based on the graph, Top 10 of the list of tweets shows their sentiment score and magnitude of the content respectively. It is not hard to find
 out the consistency of different people are verge to negative. Especially the tweet who retweeted the post on "post-pendemic era" since date after 2020-01-01. It looks like
 the attitude of majority of how people like the movie which was less than satisfactory in the era of post-penmdemic.
@@ -286,18 +289,26 @@ the attitude of majority of how people like the movie which was less than satisf
 * **Test Case: Module Design for User Story 1 - Data Scientist:**
 
 * From the graph, it shows a basic example of how do a `Data Scientist using the keyword to retrieve the User information.`
+* ![Social_Media_1 0](https://user-images.githubusercontent.com/27568828/139638925-bb9accf5-f24e-44f6-8eb2-456d6fe1a3ac.PNG)
 
 * Example: The analyzer only does a simple screen out functionality, filter the users who retweet or comment most frequently based on the keyword triggered.
 * The formula of the Sentiment point of each user which based on the properties of: Sentiment Score & Sentiment Magnitude from Engine of Google NLP analyzed.
-it is equals = the average sentiment points of top #(Maximum 20) tweets on the filterd user \n
-             = Sum (Sentiment Score of each tweets * Sentiement Magnitude of each tweets) / # amount of tweets
+* it is equals = the average sentiment points of top #(Maximum 20) tweets on the filterd user \n
+               = Sum (Sentiment Score of each tweets * Sentiement Magnitude of each tweets) / # amount of tweets
+           
 
 * As you could observed, the highest socre of tweets of the user who most cares about around the `keyword` topic (We selected keyword = "happy" at here) reach up to 0.61, his/her character prefer more prefer optimistic (1 at highest)
 
+* ![Social_Media_1](https://user-images.githubusercontent.com/27568828/139638492-ee05a92c-0402-4772-80d9-e0492c969adb.PNG)
+
 * The lowest socre of tweets of the user who most cares about `keyword` topic which is only around 0.073, his/her character prefer more passive or calm (0 at lowest)
+
+* ![Social_Media_2](https://user-images.githubusercontent.com/27568828/139638956-53cd17ea-eee1-4347-8487-d88639ffd2d2.PNG)
+
 
 * And overall information of those user's tweets at the top of their homepage, which summerize at the following graph shown.\n
  `Favorite_count - favorite count`, `created_time - created at`, and `likes - favorite` basiclly has been selected as three information labels of about the people.
+* ![Social_Media_3](https://user-images.githubusercontent.com/27568828/139639079-c8cbce26-a506-49ea-a88c-3f7682000558.PNG)
 
 
 * It is a bascially example that shows how to utilize the social media analyzer to analyze what kind of character for the people who caring about the specific keywords in twitter's user group.
