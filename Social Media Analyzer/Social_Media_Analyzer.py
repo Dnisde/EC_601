@@ -12,10 +12,9 @@ import argparse
 # Imports the Google Cloud client library
 from google.cloud import language_v1
 #Twitter API credentials
-consumer_key = "8KMps10UjAdfCZoLzUMOjJtaX"
-consumer_secret = "wstgm1dNVCgnPWKiBJ1Z7EPnIjQGzrYgLwvUwvC6N2tQ7z1zFv"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAL5iUAEAAAAAmo6FYRjqdKlI3cNziIm%2BHUQB9Xs%3DS31pj0mxARMTOk2g9dvQ1yP9wknvY4FPBPUlE00smJcncw4dPR"
-json_path = "E:\Dnisde\Learning\Master_BU\EC601\my-nlp-project-1234-zq-725d24ec39b9.json"
+consumer_key = "Your_Customer_Key"
+consumer_secret = "Your_Customer_Secret"
+json_path = "The_path_of_your_GoogleCloud_Client_Key"
 # Instantiates a client
 client = language_v1.LanguageServiceClient.from_service_account_json(json_path)
 
@@ -134,9 +133,9 @@ class Social_Media_Analyzer:
 
 
 if __name__ == "__main__":
-    web_app = Social_Media_Analyzer(consumer_key, consumer_secret, "Disney Movies ratings")
+    web_app = Social_Media_Analyzer(consumer_key, consumer_secret, "Happy")
     # test_App connection
     print(web_app)
     web_app()
-    web_app.search_Bykeywords()
-    # web_app.search_People_ByKeywords()
+    # web_app.search_Bykeywords()
+    web_app.search_People_ByKeywords()
