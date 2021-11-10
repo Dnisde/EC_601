@@ -1,10 +1,11 @@
 # Module of Social Media Analyzer
 
-This is Introduction of our Social Media Analyzing program, which is mainly going to use the Twitter API and the Google NLP Engine to build a functionality analyzing tool to analyze the twitter's feeds. Basically, it is a briefly overview of the sentiment analysis tool by retrieve information from tweets that people post everyday. Or the feed of the publication and tweets from users, Then implementing the analysis and build different user cases for specific users.
+This is Introduction of our Social Media Analyzing program, which is mainly going to use the Twitter API and the Google NLP Engine to build a functionality analyzing tool to analyze the twitter's feeds. Basically, it is a briefly a tool that mainly focus on retrieve information from tweets that people post everyday and analyze the sentiments, which bases on the main user story as the following **"Modular Design based on Selected Main Story"** part defined. It will finally basically implement the function to satisfy the needs based on those two stories only.
 
 ## MileStone:
 
 **Milestone & Sprint**
+
 1. Realize both the Twitter API, and Google NLP(etc. might have more) to summary the usage and write the demo of test programs to exercise using different aspects of twitter API 2.0.  For instance, retrieving tweets, searching per time, hashtags, etc. Then Realize the Google NLP in AutoML Natrual Language part in specifically by the same way. Building a model and test the model's accurancy. Access and test the model by set up a script by using keywords on our own desktop.
 2. Define and create the user Stories of our analyzing module / application, and showing how are we going to use them to building the innovation tool. This analyzer is basically of a combination of access Twitter API and Google NLP to learning to build a extension software based on MVP principle
 3. Using MVP model to translate the user stories to the real modular design of the Social Media Analyzing tool. The user story might be predifined at the very beginning. But it might be altered by the changing in progress, or likewise, insteaded by better ideas to reconstruct the user stories in order to adapt with the Costumer demands under perspective of the blueprint gones well.
@@ -13,11 +14,7 @@ This is Introduction of our Social Media Analyzing program, which is mainly goin
 
 # 📝 About the Tool / Application itself.
 
-[block:api-header]
-{
-  "title": "Social Media Analyzer"
-}
-[/block]
+[block:api-header]{"title": "Social Media Analyzer"}[/block]
 **Social Media Analyzer is principle of using Twitter API to retreive the sentiments data of features, such as a bulk of tweets, emotion icon and hashtags from the tweets in target. Then utilize those features into training the sentiment and predict those lables in different level perspectives by access the NLP model of Google Natrual Language tools.**
 
 It is an analystic tool which help us to understand the API in depth, and realize the concept how we going to use the MVP and protocols to build our own product in the future practices. Writing Test Programs for third parties API, or implementing user stories by using the third parties API will be contained with this topic.
