@@ -132,18 +132,20 @@ print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
 import requests
 from flask import Flask, session
 import json
-import tweepy # https://github.com/tweepy/tweepy
+import tweepy
 import pandas as pd
 import math
 import argparse
+
 # Imports the Google Cloud client library
 from google.cloud import language_v1
+client = language_v1.LanguageServiceClient.from_service_account_json(json_path)
+
 #Twitter API credentials
 consumer_key = "Your_Customer_Key"
 consumer_secret = "Your_Customer_Secret"
 json_path = "The_path_of_your_GoogleCloud_Client_Key"
-# Instantiates a client
-client = language_v1.LanguageServiceClient.from_service_account_json(json_path)
+
 
 class Social_Media_Analyzer:
 
@@ -175,10 +177,8 @@ class Social_Media_Analyzer:
         search_words = self.keywords
         api = tweepy.API(self.auth, wait_on_rate_limit=True)
         new_search = search_words + " -filter:retweets"
-        # Send tweets through API access
-        # api.update_status("Look, I'm tweeting from #Python in my #earthanalytics class! @EarthLabCU")
-
-        # Search the tweets hit by the keywords in numbers of # at the top.
+       
+        # Search the tweets hit by the keywords of number of #5
         tweets = tweepy.Cursor(api.search_tweets, q=search_words, lang="en", since="2020-01-01").items(10)
         for tweet in tweets:
             print(f"Twitter : {tweet.text}")
@@ -235,7 +235,7 @@ class Social_Media_Analyzer:
             print("bad request")
             # print(e.message[0]['code'])  # prints 34
             # print(e.args[0][0]['code'])  # prints 34
-
+        
     def evaluate_sentiment(self, twitters, userinfo=None):
         overall_score = 0
         # The text to analyze
@@ -247,7 +247,7 @@ class Social_Media_Analyzer:
             overall_score = overall_score + (sentiment.magnitude * sentiment.score)
             if userinfo is None:
                 print("Twitter {} has a sentiment score of {}, strength of emotion: {}".format(index,  sentiment.score, sentiment.magnitude))
-
+        
 
         if overall_score != 0:
             overall_score = overall_score / len(sentiment_sentences)
@@ -272,7 +272,7 @@ if __name__ == "__main__":
 
     # Test Case 2: Module Design for User Story 2: commercial tenant
     # web_app.search_Bykeywords()
-
+    
 ```
 
 * **Test Case: Module Design for User Story 2 - Commercial tenant:**
