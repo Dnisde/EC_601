@@ -289,7 +289,7 @@ the attitude of majority of how people like the movie which was less than satisf
 * **Test Case: Module Design for User Story 1 - Data Scientist:**
 
 * From the graph, it shows a basic example of how do a `Data Scientist using the keyword to retrieve the User information.`
-* ![Social_Media_1 0](https://user-images.githubusercontent.com/27568828/139638925-bb9accf5-f24e-44f6-8eb2-456d6fe1a3ac.PNG)
+![Social_Media_1 0](https://user-images.githubusercontent.com/27568828/139638925-bb9accf5-f24e-44f6-8eb2-456d6fe1a3ac.PNG)
 
 * Example: The analyzer only does a simple screen out functionality, filter the users who retweet or comment most frequently based on the keyword triggered.
 * The formula of the Sentiment point of each user which based on the properties of: Sentiment Score & Sentiment Magnitude from Engine of Google NLP analyzed.
@@ -299,16 +299,16 @@ the attitude of majority of how people like the movie which was less than satisf
 
 * As you could observed, the highest socre of tweets of the user who most cares about around the `keyword` topic (We selected keyword = "happy" at here) reach up to 0.61, his/her character prefer more prefer optimistic (1 at highest)
 
-* ![Social_Media_1](https://user-images.githubusercontent.com/27568828/139638492-ee05a92c-0402-4772-80d9-e0492c969adb.PNG)
+![Social_Media_1](https://user-images.githubusercontent.com/27568828/139638492-ee05a92c-0402-4772-80d9-e0492c969adb.PNG)
 
 * The lowest socre of tweets of the user who most cares about `keyword` topic which is only around 0.073, his/her character prefer more passive or calm (0 at lowest)
 
-* ![Social_Media_2](https://user-images.githubusercontent.com/27568828/139638956-53cd17ea-eee1-4347-8487-d88639ffd2d2.PNG)
+![Social_Media_2](https://user-images.githubusercontent.com/27568828/139638956-53cd17ea-eee1-4347-8487-d88639ffd2d2.PNG)
 
 
 * And overall information of those user's tweets at the top of their homepage, which summerize at the following graph shown.\n
  `Favorite_count - favorite count`, `created_time - created at`, and `likes - favorite` basiclly has been selected as three information labels of about the people.
-* ![Social_Media_3](https://user-images.githubusercontent.com/27568828/139639079-c8cbce26-a506-49ea-a88c-3f7682000558.PNG)
+![Social_Media_3](https://user-images.githubusercontent.com/27568828/139639079-c8cbce26-a506-49ea-a88c-3f7682000558.PNG)
 
 
 * It is a bascially example that shows how to utilize the social media analyzer to analyze what kind of character for the people who caring about the specific keywords in twitter's user group.
