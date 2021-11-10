@@ -299,11 +299,11 @@ the attitude of majority of how people like the movie which was less than satisf
 
 * As you could observed, the highest socre of tweets of the user who most cares about around the `keyword` topic (We selected keyword = "happy" at here) reach up to 0.61, his/her character prefer more prefer optimistic (1 at highest)
 
-![Social_Media_1](https://user-images.githubusercontent.com/27568828/139638492-ee05a92c-0402-4772-80d9-e0492c969adb.PNG)
+  ![Social_Media_1](https://user-images.githubusercontent.com/27568828/139638492-ee05a92c-0402-4772-80d9-e0492c969adb.PNG)
 
 * The lowest socre of tweets of the user who most cares about `keyword` topic which is only around 0.073, his/her character prefer more passive or calm (0 at lowest)
 
-![Social_Media_2](https://user-images.githubusercontent.com/27568828/139638956-53cd17ea-eee1-4347-8487-d88639ffd2d2.PNG)
+  ![Social_Media_2](https://user-images.githubusercontent.com/27568828/139638956-53cd17ea-eee1-4347-8487-d88639ffd2d2.PNG)
 
 
 * And overall information of those user's tweets at the top of their homepage, which summerize at the following graph shown.\n
